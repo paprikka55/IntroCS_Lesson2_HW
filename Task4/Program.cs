@@ -5,7 +5,7 @@
   int circle_num = new int();
   while (index <= (length))
   {
-    circle_num = (num / Convert.ToInt32(Math.Pow(10, length - index))) % 10;
+    circle_num = num / Convert.ToInt32(Math.Pow(10, length - index)) % 10;
     if (index == (length))
     {
       result = result + Convert.ToString(circle_num);
